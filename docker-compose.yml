@@ -1,7 +1,7 @@
 version: '3.5'
 services:
   web:
-    image: odoo:13.0
+    image: twtrubiks/odoo13:20211007
     depends_on:
       - db
     ports:
